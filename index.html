@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="exist">
+            <div class="nav">
+                <div class="material-icons icon" style="font-size: 40px;">music_note</div>
+                <div class="player-name">Player</div>
+                <div class="menu">
+                    <div class="material-icons home" style="font-size: 40px">home</div>
+                    <div class="music">Music</div>
+                    <div class="playlist">Playlist</div>
+                </div>
+            </div>
+            <div class="player"></div>
+            <div class="music-player">
+                <audio src="/music/music1.mp3.mp3"></audio>
+                <div class="main-player">
+                    <div class="name-title">
+                        <div class="title2">Fade</div>
+                        <div class="name">Alan Walker</div>
+                    </div>
+                    <div class="material-icons favorite">favorite</div>
+                    <div class="material-icons backward">skip_previous</div>
+                    <div class="material-icons play-stop">play_circle_outline</div>
+                    <div class="material-icons forward">skip_next</div>
+                    <div class="timer-bar">
+                        <div class="time">
+                            <div class="actual-time">0:00</div>
+                            <div class="total-time">0:00</div>
+                        </div>
+                        <div class="timer">
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+                    <div class="material-icons sound">volume_up</div>
+                    <div class="material-icons add-to-playlist">playlist_add</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="music-modal">
+            <div class="material-icons icon-cross">close</div>
+            <div class="music-modal-parent-div">
+                <div class="main-work-music-modal">
+                    <div class="show-image"></div>
+                    <div class="amn">
+                        <div class="song-name">Fade</div>
+                        <div class="artist-name">Alan Walker</div>
+                    </div>
+                    <div class="material-icons play-icon">play_circle_outline</div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="sound-range"></div> -->
+
+        <!-- <div class="add-to-playlist-modal">
+            <div class="material-icons cross-modal">close</div>
+            <div class="all-title">
+                <div class="play all-properties">Play</div>
+                <div class="title all-properties">Title</div>
+                <div class="artist all-properties">Artist</div>
+                <div class="remove all-properties">Remove</div>
+            </div>
+            <div class="all-content">
+                <div class="parent-modal-div">
+                    <div class="playBtn material-icons">play_circle_outline</div>
+                    <div class="title-name">Fade</div>
+                    <div class="artistname">Alan Walker</div>
+                    <div class="removeSong material-icons">remove_circle_outline</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
